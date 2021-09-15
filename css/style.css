@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+* {
+    color: gray;
+}
+
+
+h2 {
+    color: midnightblue;
+}
+
+h3 {
+    color: darkslategray;
+}
+
+p {
+	color: lightsteelblue;
+}
+
+span {
+	color: darkslateblue;
+}
+
+span.phone_number {
+    color: orange;
+}
+
+span.header_black {
+    color: black;
+}
+
+p.delivery_cost {
+	color: darkcyan;
+}
+
+.link_1 {
+    color: blue;
+}
+
+.link_2 {
+    color: purple;
+}
+
+#Location_header {
+    color: green;
+}
+
+.chedule {
+	color: springgreen;
+}
+
+.chedule ~ p {
+	color: goldenrod;
+}
